@@ -112,12 +112,12 @@ function updateStars() {
           Discover Endless Possibilities <br />
           in the{" "}
           <span className="text-cyan-400 drop-shadow-[0_0_15px_rgba(59,130,246,0.8)]">
-            Cyber-space
+            AI-Powered Cyber-space
           </span>
         </h2>
 
         <p className="mt-4 max-w-2xl text-gray-300 text-center mx-auto">
-          Step into the Cyber-space and seize every opportunity with our services,
+          Step into the AI-Powered Cyber-space and seize opportunity with our services, expert guidance,  strategic insights for unrivaled financial success,
           <br />
           expert guidance, and strategic insights for unrivaled financial success.
         </p>
