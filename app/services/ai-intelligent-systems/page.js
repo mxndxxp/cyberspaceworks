@@ -39,10 +39,9 @@
 import AiIntelligentSystems from "@/components/ServicesComponents/AiIntelligentSystems";
 
 export const metadata = {
-  // ✅ THIS is the key fix — tells Next.js the production domain
   metadataBase: new URL("https://cyberspaceworks.com"),
 
-  title: "AI & Intelligent Systems | Cyberspace Works",
+  title: "AI Development & LLM Solutions in Kolkata | Cyberspace Works",
   description:
     "Cyberspace Works offers AI development, LLM integration, model training, automations, and machine learning solutions in Howrah, Kolkata, West Bengal",
   keywords:
@@ -55,7 +54,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     url: "https://cyberspaceworks.com/services/ai-intelligent-systems",
-    title: "AI & Intelligent Systems | Cyberspace Works",
+    title: "AI Development & LLM Solutions in Kolkata | Cyberspace Works",
     description:
       "Cyberspace Works offers AI development, LLM integration, model training, automations, and machine learning solutions in Howrah, Kolkata, West Bengal",
     images: ["https://cyberspaceworks.com/logo.png"],
@@ -63,7 +62,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "AI & Intelligent Systems | Cyberspace Works",
+    title: "AI Development & LLM Solutions in Kolkata | Cyberspace Works",
     description:
       "Cyberspace Works offers AI development, LLM integration, model training, automations, and machine learning solutions in Howrah, Kolkata, West Bengal",
     images: ["https://cyberspaceworks.com/logo.png"],

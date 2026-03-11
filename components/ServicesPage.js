@@ -192,7 +192,7 @@ export default function ServicesPage() {
     { name: "App Development", icon: <FaMobileAlt size={32} />, desc: "Building intuitive, scalable, and engaging mobile app experiences for businesses.", href: "/services/app-development" },
     { name: "Software Development", icon: <FaCode size={32} />, desc: "Custom software solutions engineered to streamline operations and drive growth.", href: "/services/software-development" },
     { name: "UI/UX Design", icon: <FaPalette size={32} />, desc: "Designing sleek, user-focused interfaces that enhance experience and usability.", href: "/services/ui-ux-design" },
-     { name: "Graphic Design", icon: <FaBrush size={32} />, desc: "Transforming ideas into powerful, captivating visuals that leave a lasting impression.", href: "/services/graphic-design" },
+    { name: "Graphic Design", icon: <FaBrush size={32} />, desc: "Transforming ideas into powerful, captivating visuals that leave a lasting impression.", href: "/services/graphic-design" },
     { name: "Digital Marketing", icon: <FaBullhorn size={32} />, desc: "Boosting brand visibility and engagement through strategic online campaigns.", href: "/services/digital-marketing" },
     { name: "Research & Analytics", icon: <SiGoogleanalytics size={32} />, desc: "Delivering data-driven insights to fuel smarter decisions and business innovation.", href: "/services/research-and-analytics" },
   ];

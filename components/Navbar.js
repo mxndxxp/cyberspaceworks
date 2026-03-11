@@ -632,8 +632,8 @@ export default function Navbar() {
     { name: "App Development", icon: <FaMobileAlt />, subtext: "iOS & Android native solutions", href: "/services/app-development" },
     { name: "Software Development", icon: <FaCode />, subtext: "Tailored enterprise solutions", href: "/services/software-development" },
     { name: "UI/UX Design", icon: <FaPalette />, subtext: "Designs that convert users", href: "/services/ui-ux-design" },
-    { name: "Digital Marketing", icon: <FaBullhorn />, subtext: "Boost your brand visibility", href: "/services/digital-marketing" },
     { name: "Graphic Design", icon: <FaBrush />, subtext: "Creative branding visuals", href: "/services/graphic-design" },
+    { name: "Digital Marketing", icon: <FaBullhorn />, subtext: "Boost your brand visibility", href: "/services/digital-marketing" },
     { name: "Research & Analytics", icon: <SiGoogleanalytics />, subtext: "Data-driven insights", href: "/services/research-and-analytics" },
   ];
 
