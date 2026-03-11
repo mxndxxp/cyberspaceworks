@@ -255,42 +255,18 @@ export default function RootLayout({ children }) {
 
         <link rel="icon" type="image/png" href="/logo2.png" />
 
-        {/* ✅ Canonical URL */}
-        <link rel="canonical" href="https://cyberspaceworks.com" />
+        {/* ✅ Canonical REMOVED from here — each page controls its own canonical
+            via alternates.canonical in their metadata export.
+            Having it here was overriding every page with the home URL. */}
 
-        {/* Home Page Title */}
-        <title>Cyberspace Works - Innovations Powered By AI</title>
-
-        {/* Home Page Meta Description */}
-        <meta
-          name="description"
-          content="Complete Solutions on AI | Website, Software & App Development | UI/UX & Graphics Design | Digital Marketing | Research & Analysis | Howrah, Kolkata, India"
-        />
-
-        {/* Home Page Keywords */}
-        <meta
-          name="keywords"
-          content="ai development company kolkata, ai development company howrah, machine learning company kolkata, ai solutions west bengal, llm development services, llm integration company, ai chatbot development kolkata, generative ai development company, ai model training services, ai automation services india, artificial intelligence company india, ai consulting company kolkata, ai software development company, custom ai model development, ai powered applications, ai integration services, ai business solutions, ai product development company, generative ai services india, ai development agency india, ai technology company kolkata, enterprise ai solutions india, ai startup development services, ai chatbot agency india, machine learning solutions company, ai company in howrah, ai company in kolkata, ai developers in west bengal, ai services kolkata india, machine learning services howrah, ai automation company kolkata, web development kolkata, app development kolkata, software development howrah, website development kolkata, mobile app development kolkata, digital marketing kolkata, ui ux design kolkata, graphic design kolkata, research and analytics kolkata, cyberspace works, software company howrah, it company kolkata, web design kolkata"
-        />
-
-        {/* OpenGraph */}
+        {/* OpenGraph — global fallback */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cyberspaceworks.com" />
-        <meta property="og:title" content="Cyberspace Works - Innovations Powered By AI" />
-        <meta
-          property="og:description"
-          content="Complete Solutions on AI | Website, Software & App Development | UI/UX & Graphics Design | Digital Marketing | Research & Analysis | Howrah, Kolkata, India"
-        />
         <meta property="og:image" content="https://cyberspaceworks.com/logo.png" />
 
-        {/* Twitter Card */}
+        {/* Twitter Card — global fallback */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="https://cyberspaceworks.com" />
-        <meta name="twitter:title" content="Cyberspace Works - Innovations Powered By AI" />
-        <meta
-          name="twitter:description"
-          content="Complete Solutions on AI | Website, Software & App Development | UI/UX & Graphics Design | Digital Marketing | Research & Analysis | Howrah, Kolkata, India"
-        />
         <meta name="twitter:image" content="https://cyberspaceworks.com/logo.png" />
       </head>
 
